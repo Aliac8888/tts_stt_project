@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "sherpa-onnx": "^1.10.40"
+    "sherpa-onnx": "^1.10.40",
+    "vosk": "^0.3.39"
   }
 }

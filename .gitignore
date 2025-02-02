@@ -3,3 +3,4 @@ node_modules/
 tts/vits-en/
 tts/vits-persian/
 tts/vits-fa-en/
+stt/vosk-model-small-fa-0.5/
