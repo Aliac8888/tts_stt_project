@@ -1,5 +1,5 @@
-test-vits-en.wav
+tts/test-vits-en.wav
 node_modules/
-vits-en/
-vits-persian/
-vits-fa-en/
+tts/vits-en/
+tts/vits-persian/
+tts/vits-fa-en/
