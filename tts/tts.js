@@ -54,7 +54,7 @@ const audio = tts.generate({
   speed: speed,
 });
 
-tts.save("./test-vits-en.wav", audio);
-console.log("Saved to test-vits-en.wav successfully.");
+tts.save("./test-vits.wav", audio);
+console.log("Saved to test-vits.wav successfully.");
 
 tts.free();
