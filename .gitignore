@@ -4,3 +4,5 @@ tts/vits-en/
 tts/vits-persian/
 tts/vits-fa-en/
 stt/vosk-model-small-fa-0.5/
+stt/vosk-model-fa-0.42/
+stt/vosk-model-fa-0.5/

@@ -10,13 +10,17 @@ function createOfflineTts() {
     // tokens: "./vits-persian/vits-piper-fa-haaniye_low/tokens.txt",
     // dataDir: "./vits-persian/vits-piper-fa-haaniye_low/espeak-ng-data",
 
-    model:
-      "./vits-fa-en/vits-piper-fa_en-rezahedayatfar-ibrahimwalk-medium/fa_en-rezahedayatfar-ibrahimwalk-medium.onnx",
-    tokens:
-      "./vits-fa-en/vits-piper-fa_en-rezahedayatfar-ibrahimwalk-medium/tokens.txt",
-    dataDir:
-      "./vits-fa-en/vits-piper-fa_en-rezahedayatfar-ibrahimwalk-medium/espeak-ng-data",
-      
+    // model:
+    //   "./vits-fa-en/vits-piper-fa_en-rezahedayatfar-ibrahimwalk-medium/fa_en-rezahedayatfar-ibrahimwalk-medium.onnx",
+    // tokens:
+    //   "./vits-fa-en/vits-piper-fa_en-rezahedayatfar-ibrahimwalk-medium/tokens.txt",
+    // dataDir:
+    //   "./vits-fa-en/vits-piper-fa_en-rezahedayatfar-ibrahimwalk-medium/espeak-ng-data",
+
+    model: "./vits-persian/vits-piper-fa_IR-gyro-medium/fa_IR-gyro-medium.onnx",
+    tokens: "./vits-persian/vits-piper-fa_IR-gyro-medium/tokens.txt",
+    dataDir: "./vits-persian/vits-piper-fa_IR-gyro-medium/espeak-ng-data",
+
     // model: "./vits-en/vits-piper-en_US-amy-low/en_US-amy-low.onnx",
     // tokens: "./vits-en/vits-piper-en_US-amy-low/tokens.txt",
     // dataDir: "./vits-en/vits-piper-en_US-amy-low/espeak-ng-data",
@@ -43,7 +47,8 @@ const tts = createOfflineTts();
 const speakerId = 0;
 const speed = 1.0;
 const audio = tts.generate({
-  text: "درود بر استاد هامون مهدی زاده! این، صدای تست متن به گفتار است.",
+  // text: "درود بر استاد هامون مهدی زاده! این، صدای تست متن به گفتار است.",
+  text: "دو قدم میری جلو سه قدم میری عقب.",
   // text: "hello there im pleased to meet you.",
   sid: speakerId,
   speed: speed,

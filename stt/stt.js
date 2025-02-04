@@ -5,7 +5,7 @@ const { Readable } = require("stream");
 const wav = require("wav");
 
 // must download it from https://alphacephei.com/vosk/models
-MODEL_PATH = "./vosk-model-small-fa-0.5";
+MODEL_PATH = "./vosk-model-fa-0.42";
 FILE_NAME = "../tts/test-vits-en.wav";
 
 if (!fs.existsSync(MODEL_PATH)) {
